@@ -1,7 +1,11 @@
+import Compo1 from "./components/Compo1";
+import Compo2 from "./components/Compo2";
+
 function App() {
   return (
     <>
-      <h1>Ollo!</h1>
+      <Compo1 />
+      <Compo2 />
     </>
   );
 }
