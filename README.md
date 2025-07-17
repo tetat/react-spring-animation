@@ -1,12 +1,68 @@
-# React + Vite
+# 🎞️ React Spring Animation Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates simple yet powerful animations in a React application using React Spring.
 
-Currently, two official plugins are available:
+Animations include:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fade-in effects
+- Component transitions
+- Animated number counter
+- Toggle-based rendering
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎬 Demo Video
+
+▶️ [Watch Demo on Google Drive](https://drive.google.com/file/d/1xgr2T8nICQwe7dE30AI09KZvzawXT83j/view?usp=drive_link)
+
+---
+
+## 🚀 Features
+
+- ✅ Fade-in on load
+- ✅ Smooth transition between components
+- ✅ Animated number counter using `useSpring`
+- ✅ Toggle visibility with animation
+- ✅ React functional components
+
+---
+
+## 🔧 Tech Stack
+
+- [React](https://reactjs.org/)
+- [React Spring](https://www.react-spring.dev/)
+
+---
+
+## 🛠️ Installation
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/tetat/react-spring-animation
+```
+
+```bash
+cd react-spring-animation
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start dev server
+
+```bash
+npm run dev
+```
+
+---
+
+## 💡 Tutorial Source
+
+This project is based on the original tutorial by Traversy Media.
+I’ve used `@react-spring/web` version `10.0.1` for this project.
+
+🔗 [YouTube Tutorial by Traversy Media](https://youtu.be/S8yn3-WpVV8?si=q2CBUGqD7zxYKmnx)
