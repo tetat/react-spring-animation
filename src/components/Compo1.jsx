@@ -1,9 +1,11 @@
 import { useSpring, animated } from "@react-spring/web";
+import { memo } from "react";
 
-export default function Compo1() {
+function Compo1() {
   const fadeInFromTop = useSpring({
     from: { opacity: 0, marginTop: -500 },
     to: { opacity: 1, marginTop: 0 },
+    config: { duration: 1000 },
   });
 
   const numberSpring = useSpring({
@@ -47,3 +49,5 @@ const counterStyle = {
   borderRadius: "50%",
   margin: "1rem auto",
 };
+
+export default memo(Compo1);
